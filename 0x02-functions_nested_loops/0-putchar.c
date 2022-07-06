@@ -1,14 +1,17 @@
 #include <stdio.h>
 
 
-void print_alphabet(void)
+int main(void)
 {
-	int n;
+	char *sh = "_putchar";
 
-	for (n = 'a'; n <= 'z'; n++)
+	while(*sh)
 	{
-		_putchar(n);
+		_putchar(*sh);
+		*sh++;
 	}
-
 	_putchar('\n');
+
+
+	return (0);
 }
