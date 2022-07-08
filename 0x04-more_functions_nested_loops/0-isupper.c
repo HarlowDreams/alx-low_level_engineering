@@ -2,7 +2,7 @@
 
 /**
  * _isupper - this is a function to check uppercase alphas
- * @c: an integer parameter
+ * @c: an integer paramer
  * Return: something but success
  */
 int _isupper(int c)
